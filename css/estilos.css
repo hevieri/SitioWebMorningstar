@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hetml, body{
+    overflow-x: hidden;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+header{
+    min-height: 250px;
+    background: rgb(215,143,183);
+    background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+}
+    #logoTop{
+        width: 1100px;
+        height: 100px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* centrar en vertical */
+    }
+    #logoTop a img{
+        width: 56px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    #logoTop a{
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none; /* quitar subrayado */
+        color: #fff;
+    }
+
+    #logoTop nav a{
+        /* margin: 14px; */
+        padding: 14px;
+    }
+    #logoTop nav a:hover{
+        /*border-bottom: 2px solid #ffffff;*/
+    }
+    #actual{
+        border-bottom: 2px solid rgb(251, 214, 234);
+    }
+
+main{
+    min-height: 500px;
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+    h1{
+        font-size: 32px;
+        font-weight: 600;
+        color: #fff;
+        width: 1100px;
+        margin: 48px auto 0px auto;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+/* contenido sección index */
+    #fotoIndex{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+        #textoFoto{
+            width: 630px;
+            color: #ffffff;
+        }
+        #textoFoto p{
+            margin: 26px 0px;
+        }
+        #fotoIndex img{
+            margin: 48px 0px 54px 96px;
+        }
+        #descarga{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #descarga a{
+            padding: 8px 40px;
+            border: 1px solid #ffffff;
+            border-radius: 32px;
+            width: 210px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            color: #ffffff;
+            transition: 300ms;
+        }
+        #descarga a:hover{
+            background-color: #fff;
+            color: rgb(215,143,183);
+        }
+        .fa-brands{
+            font-style: normal;
+        }
+        .fa-apple{
+            font-size: 20px;
+        }
+
+    #index{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+
+        #index article{
+            text-align: center;
+            width: 280px;
+        }
+
+        #index img{
+            width: 72px;
+        }
+        #index h2{
+            margin: 24px 0px;
+        }
+
+/* sección Nuestra App */
+    #app{
+        display: flex;
+
+        /* alinear en vertical */
+        align-items: center;
+    }
+    #app img{
+        margin: 40px 64px 40px 0px;
+    }
+    #app p{
+        margin-top: 16px;
+    }
+
+    #caracteristicas{
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos  */
+        justify-content: space-between;
+    }
+    #caracteristicas article{
+        width: 326px;
+        margin-bottom: 40px;
+    }
+    #caracteristicas img{
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    #caracteristicas p{
+        margin-top: 16px;
+    }
+
+/* contenido sección compar */
+    #planes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+        #planes article{
+            width: 326px;
+            padding: 32px 0px;
+            text-align: center;
+            border-radius: 12px;
+            /*box-shadow: ejeX ejeY blur color;*/
+            box-shadow: 0px 0px 8px #d8d8d8;
+        }
+        #planes li{
+            list-style: none;
+            line-height: 32px;
+        }
+        #planes div{
+            background-color: #f8f8f8;
+            margin: 20px 0px;
+            padding: 8px 0px;
+        }
+        #planPersonal, #contratarPersonal{
+            background: rgb(215,143,183);
+            background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+            color: #fff !important;
+            border: 1px solid rgb(215,143,183) !important;
+        }
+
+        #planes div b{
+            font-size: 32px;
+            font-weight: 600;
+        }
+        #planes a{
+            text-decoration: none;
+            color: #707070;
+            border: 1px solid #707070;
+            margin: 24px 0px;
+            display: inline-block;
+            width: 150px;
+            padding: 8px 0px;
+            border-radius: 24px;
+        }
+        #planes a:hover{
+            background-color: #262626;
+            color: #fff;
+        }
+        #contratarPersonal:hover{
+            background: linear-gradient(90deg,
+                        rgba(201,185,241,1) 0%,
+                        rgba(215,143,183,1) 100%
+                        );
+        }
+
+/* contenido sección nosotros */
+    #nosotros {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 64px;
+    }
+    #nosotros h2{
+        margin-top: 8px;
+    }
+    #nosotros img{
+        width: 245px;
+        filter: grayscale(100%);
+        transition: .3s;
+    }
+    #nosotros img:hover{
+        filter: grayscale(0%);
+    }
+    .nombre{
+        /*color: #fff; */
+        /*background-color: rgba(215,143,183,.4);*/
+        /*position: relative;
+        top: -26px;*/
+    }
+/* contenido sección contacto */
+    #contacto{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../imgs/bg-contacto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 64px;
+    }
+        #formContacto{
+            width: 1000px;
+            margin: auto;
+            padding: 60px;
+            background-color: #fff;
+            border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #formContacto form{
+            width: 550px;
+        }
+        #formContacto input,
+        #formContacto textarea,
+        #formContacto button{
+            width: 500px;
+            font-family: Raleway, sans-serif;
+            background-color: #F4F4F4;
+            height: 50px;
+            margin-bottom: 32px;
+            padding-left: 16px;
+            border: 1px solid #d8d8d8;
+            border-radius: 12px;
+        }
+        #formContacto textarea{
+            height: 152px;
+            padding: 16px;
+            resize: none;
+        }
+        #formContacto button{
+            background-color: #444;
+            color: #fff;
+            cursor: pointer;
+            transition: 300ms;
+        }
+        #formContacto button:hover{
+            background-color: #323232;
+        }
+
+        #formContacto article{
+            width: 250px;
+            height: 316px;
+            background-color: #F4F4F4;
+            border-radius: 12px;
+            text-align: center;
+        }
+        #formContacto article img{
+            width: 72px;
+            padding: 8px;
+            border: 1px solid #323232;
+            border-radius: 100%;
+            margin-top: 12px;
+        }
+        #formContacto article span{
+            display: block;
+            line-height: 32px;
+        }
+
+footer{
+    height: 150px;
+    background-color: #262626;
+    display: flex;
+
+    /* para que quede pagado debajo */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+    #bottom{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+        #bottom a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        #bottom img{
+            width: 32px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        #social img{
+            width: 16px;
+        }

@@ -1,16 +1,25 @@
-Sitio Web elaborado con HTML & CSS
+# ☀️ Morningstar — Sitio Web Responsive
 
-Maquetado Web de sitio responsive.
+Sitio web desarrollado con **HTML5** y **CSS3**, centrado en una estructura clara, moderna y adaptable a cualquier dispositivo.  
+Una propuesta visual para una aplicación de gestión de proyectos, con enfoque en diseño limpio, responsivo y adaptable a múltiples resoluciones.
 
-![Image text](https://github.com/hevieri/SitioWebMorningstar/blob/main/Screens/index.png?raw=true)
+---
 
-![Image text](https://github.com/hevieri/SitioWebMorningstar/blob/main/Screens/features.png?raw=true)
+## 🌐 Vista en línea
 
-![Image text](https://github.com/hevieri/SitioWebMorningstar/blob/main/Screens/comprar.png?raw=true)
+🔗 [Ver sitio publicado en GitHub Pages](https://hevieri.github.io/SitioWebMorningstar/)
 
-![Image text](https://github.com/hevieri/SitioWebMorningstar/blob/main/Screens/nosotros.png?raw=true)
+---
 
-![Image text](https://github.com/hevieri/SitioWebMorningstar/blob/main/Screens/contacto.png?raw=true)
+## 🧱 Tecnologías utilizadas
+
+- **HTML5** — estructura semántica limpia  
+- **CSS3** — estilos personalizados  
+- **Diseño responsive** — adaptable a mobile, tablet y desktop  
+- **Maquetado web** — orientado a landing page de app
+
+---
+
+---
 
 
-https://github.com/hevieri/SitioWebMorningstar/deployments/github-pages
